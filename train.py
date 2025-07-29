@@ -73,7 +73,7 @@ trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=train,
-    eval_dataset=eval,
+    eval_dataset=test,
     tokenizer=tokenizer
 )
 
@@ -81,4 +81,3 @@ trainer.train()
 
 model.save_pretrained("my-smollm")
 tokenizer.save_pretrained("my-smollm")
-
