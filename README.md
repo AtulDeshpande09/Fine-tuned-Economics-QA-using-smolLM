@@ -17,6 +17,9 @@ To understand and test the mechanics of instruction tuning on a low-resource, li
 - Model weights are not included to reduce repo size
 - Intended as an experiment / proof of concept
 
+## Results
+![alt text](plot.png)
+
 ## Future Work
 A larger version of this project will be built using `flan-t5-small` and ~800 examples.
 
